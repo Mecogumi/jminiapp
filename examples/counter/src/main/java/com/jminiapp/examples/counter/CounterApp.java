@@ -34,6 +34,11 @@ public class CounterApp extends JMiniApp {
         running = true;
 
         // Try to load existing counter state from context
+        try {
+            context.importData("json");
+        } catch (Exception e) {
+            
+        }
         List<CounterState> data = context.getData();
         if (data != null && !data.isEmpty()) {
             counter = data.get(0);
