@@ -77,6 +77,7 @@ jminiapp/
 ├── modules/          # Framework core modules
 ├── examples/         # Example applications
 │   └── counter/      # Counter app example
+│   └── student/      # Student app example
 └── website/          # Documentation website (Docusaurus)
 ```
 

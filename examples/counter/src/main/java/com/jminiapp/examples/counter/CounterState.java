@@ -69,6 +69,6 @@ public class CounterState {
 
     @Override
     public String toString() {
-        return "CounterState{value=" + value + "}";
+        return "CounterState{vaue=" + value + "}";
     }
 }
